@@ -2,7 +2,6 @@
 
 namespace App\Providers;
 
-use App\Extensions\MongoUserProvider;
 use App\Models\Team;
 use App\Policies\TeamPolicy;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
@@ -28,6 +27,6 @@ class AuthServiceProvider extends ServiceProvider
     {
         $this->registerPolicies();
 
-        //
+        // 
     }
 }
